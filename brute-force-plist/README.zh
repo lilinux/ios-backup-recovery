@@ -1,0 +1,3 @@
+暴力破解ios备份的密码
+
+大部分代码来自于iphone-dataprotection(https://github.com/dinosec/iphone-dataprotection), 我用fastpbkdf2(https://pypi.org/project/fastpbkdf2/)替换了python的pbkdf2实现, fastpbkdf2能提升7倍的破解速度.

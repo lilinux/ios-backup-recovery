@@ -1,0 +1,10 @@
+通过腾讯云的批量计算服务(https://cloud.tencent.com/product/Batch), 可以同时启动成千上万个实例进行并行破解。
+
+首先将字典文件和ios备份的plist上传到cos对象存储bucket中, 然后把split和crack的tgz包上传到cos对象存储bucket中。split和crack代表了批量计算的两个任务，前者将字典分隔成多份，后者启动多个crack任务实例，分别遍历字典中的密码是否匹配。具体任务定义可以参照提交任务的脚本。
+
+如果在cos中找到文件password, 说明密码已找到。
+
+TODO:
+
+1. 找到密码后自动结束任务，而不是等到所有任务跑完
+2. 自动创建cos路径并上传代码和其它输入

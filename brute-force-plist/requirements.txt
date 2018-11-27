@@ -1,0 +1,2 @@
+fastpbkdf2
+pycrypto
