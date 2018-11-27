@@ -1,3 +1,3 @@
 brute force crack ios backup password
 
-most code from project iphone-dataprotection(https://github.com/dinosec/iphone-dataprotection), and I use fastpbkdf2(https://pypi.org/project/fastpbkdf2/) to replace python pbkdf2 code, fastpbkdf2 can accelerate 7 times.
+most code from project iphone-dataprotection(https://github.com/dinosec/iphone-dataprotection), and I use fastpbkdf2(https://pypi.org/project/fastpbkdf2/) to replace python pbkdf2 code, fastpbkdf2 can accelerate 40 times.
